@@ -1,0 +1,22 @@
+{
+    "name": "zalas/param-converter-bundle",
+    "description": "Bundle that provides additional param converters for Symfony",
+    "type": "bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Zalas",
+            "email": "jakub@zalas.pl"
+        }
+    ],
+    "require": {
+        "sensio/framework-extra-bundle": "~3.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1",
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": { "Zalas\\Bundle\\ParamConverterBundle\\": "" }
+    }
+}
