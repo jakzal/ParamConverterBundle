@@ -3,6 +3,8 @@ Param Converter Bundle
 
 This bundle provides additional param converters for Symfony.
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jakzal/ParamConverterBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jakzal/ParamConverterBundle/?branch=master)
+
 Installation
 ------------
 

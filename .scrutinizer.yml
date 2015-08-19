@@ -1,0 +1,19 @@
+inherit: true
+
+build:
+    project_setup:
+    tests:
+        override:
+            - ./vendor/bin/phpspec run --format=dot
+            - ./vendor/bin/phpunit
+
+filter:
+    paths: [src/*]
+    excluded_paths:
+        - Tests/*
+        - Spec/*
+
+build_failure_conditions:
+    - 'elements.rating(<= B).new.exists'
+    - 'issues.label("coding-style").new.exists'
+    - 'issues.severity(>= MAJOR).new.exists'
