@@ -1,0 +1,6 @@
+suites:
+    default:
+        namespace: Zalas\Bundle\ParamConverterBundle
+        psr4_prefix: Zalas\Bundle\ParamConverterBundle
+        spec_prefix: Spec
+        src_path: .
