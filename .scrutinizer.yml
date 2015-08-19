@@ -16,3 +16,8 @@ build_failure_conditions:
     - 'elements.rating(<= B).new.exists'
     - 'issues.label("coding-style").new.exists'
     - 'issues.severity(>= MAJOR).new.exists'
+
+checks:
+    php:
+        code_rating: true
+        duplication: true
