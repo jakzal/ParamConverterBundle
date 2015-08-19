@@ -8,7 +8,6 @@ build:
             - ./vendor/bin/phpunit
 
 filter:
-    paths: [src/*]
     excluded_paths:
         - Tests/*
         - Spec/*
