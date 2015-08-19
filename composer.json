@@ -17,6 +17,13 @@
         "phpunit/phpunit": "~4.6"
     },
     "autoload": {
-        "psr-4": { "Zalas\\Bundle\\ParamConverterBundle\\": "" }
+        "psr-4": {
+            "Zalas\\Bundle\\ParamConverterBundle\\Request\\": "Request"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zalas\\Bundle\\ParamConverterBundle\\Tests\\": "Tests"
+        }
     }
 }
