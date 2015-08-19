@@ -31,7 +31,7 @@ Options:
 
 Example:
 
-```
+```php
 <?php
 
 namespace AppBundle\Controller;
