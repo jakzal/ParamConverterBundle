@@ -9,7 +9,7 @@ class VisitorRepository
     public function findByName($name)
     {
         if (self::NOT_SUPPORTED_NAME === $name) {
-            return null;
+            return;
         }
 
         return new Visitor($name);

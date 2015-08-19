@@ -45,7 +45,6 @@ class ServiceParamConverter implements ParamConverterInterface
         }
 
         throw new NotFoundHttpException(sprintf('Object of class "%s" not found.', $class));
-
     }
 
     /**

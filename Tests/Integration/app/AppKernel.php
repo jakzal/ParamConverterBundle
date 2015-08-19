@@ -19,7 +19,7 @@ class AppKernel extends Kernel
     }
 
     /**
-     * @return null
+     * @param LoaderInterface $loader
      */
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
