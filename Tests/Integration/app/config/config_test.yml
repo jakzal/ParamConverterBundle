@@ -1,0 +1,14 @@
+framework:
+    secret:          $3cr3t
+    router:          { resource: "%kernel.root_dir%/config/routing_test.yml" }
+    form:            false
+    csrf_protection: false
+    validation:      ~
+    profiler:        { only_exceptions: false }
+    test:            ~
+    session:
+        storage_id: session.storage.filesystem
+
+services:
+    visitor_repository:
+        class: AppBundle\Site\VisitorRepository

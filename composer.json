@@ -14,16 +14,17 @@
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1",
-        "phpunit/phpunit": "~4.6"
+        "phpunit/phpunit": "~4.6",
+        "symfony/browser-kit": "~2.3"
     },
     "autoload": {
         "psr-4": {
-            "Zalas\\Bundle\\ParamConverterBundle\\Request\\": "Request"
+            "Zalas\\Bundle\\ParamConverterBundle\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Zalas\\Bundle\\ParamConverterBundle\\Tests\\": "Tests"
+            "AppBundle\\": "Tests/Integration/app/src/AppBundle"
         }
     }
 }
