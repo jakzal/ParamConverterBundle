@@ -19,7 +19,7 @@ matrix:
 
 before_script:
   - phpenv config-rm xdebug.ini
-  - if [[ "$deps" = "low" ]]; then composer update --prefer-lowest --prefer-stable; else composer install --prefer-dist; fi
+  - if [[ "$deps" = "low" ]]; then composer update --prefer-lowest --prefer-stable; else composer install; fi
 
 script:
   - ./vendor/bin/phpspec run
