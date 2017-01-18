@@ -3,7 +3,7 @@ framework:
     router:          { resource: "%kernel.root_dir%/config/routing_test.yml" }
     form:            false
     csrf_protection: false
-    validation:      ~
+    validation:      false
     profiler:        { only_exceptions: false }
     test:            ~
     session:
