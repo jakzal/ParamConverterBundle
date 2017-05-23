@@ -6,6 +6,11 @@ This bundle provides additional param converters for Symfony.
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jakzal/ParamConverterBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jakzal/ParamConverterBundle/?branch=master)
 [![Build Status](https://travis-ci.org/jakzal/ParamConverterBundle.svg?branch=master)](https://travis-ci.org/jakzal/ParamConverterBundle)
 
+**Since [argument resolvers](http://symfony.com/doc/current/controller/argument_value_resolver.html)
+and [service arguments](http://symfony.com/doc/master//service_container/3.3-di-changes.html#controllers-are-registered-as-services)
+were introduced in Symfony 3.3, the param converter provided by this bundle is redundant.
+We can achieve pretty much the same by injecting services directly to controller actions.**
+
 Installation
 ------------
 
