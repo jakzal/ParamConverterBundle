@@ -11,7 +11,7 @@ Installation
 
 This bundle requires:
 
-* PHP ^5.5||^7.0
+* PHP ^7.0
 * sensio/framework-extra-bundle ~3.0
 
 The easiest way to install it is to use Composer:
